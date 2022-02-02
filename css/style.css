@@ -2,21 +2,53 @@
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
 */
+:root {
+  --main-color: #2afca6;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  max-width: 320px;
+  max-width: 375px;
   font-family: 'Open Sans';
   background-color: black;
+  margin: 20px 25px 0px 25px;
 }
 
 .site-header {
   background-image: url(../img/lignes-de-code.jpg);
-  border: 10px solid white;
+  border: 2px solid white;
   color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-bottom: 35px;
+}
+
+.site-header h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 26px;
+  padding: 20px 0px 0px 20px;
+}
+
+.site-header span {
+  font-weight: 100;
+  font-style: italic;
+  color: var(--main-color)
+}
+
+.site-header p {
+  padding: 4px 0px 0px 20px;
+}
+
+.paragraphe-header {
+  font-size: 20px;
+}
+
+.magazine-logo { 
+  color: var(--main-color);
 }
 
 img {
@@ -24,7 +56,7 @@ img {
 }
 
 .card {
-  background-color: green;
+  background-color: var(--main-color);
 }
 
 .caption {
@@ -40,7 +72,9 @@ figure {
   box-sizing: content-box;
 }
 
-footer p {
-  border: 10px solid green;
+.site-footer {
+  border: 10px solid var(--main-color);
+  box-shadow: 0px 0px 10px 0px var(--main-color);
   color: white;
+  box-sizing: border-box;
 }
