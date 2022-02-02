@@ -10,8 +10,37 @@ html {
 body {
   max-width: 320px;
   font-family: 'Open Sans';
+  background-color: black;
+}
+
+.site-header {
+  background-image: url(../img/lignes-de-code.jpg);
+  border: 10px solid white;
+  color: white;
 }
 
 img {
   max-width: 100%;
+}
+
+.card {
+  background-color: green;
+}
+
+.caption {
+  color: black;
+}
+
+article {
+  background-color: white;
+}
+
+figure {
+  box-shadow: 0px 0px 10px 0px grey;
+  box-sizing: content-box;
+}
+
+footer p {
+  border: 10px solid green;
+  color: white;
 }

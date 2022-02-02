@@ -10,15 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,100&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img src="img/lignes-de-code.jpg" alt="une image de lignes de code">
+    <header class="site-header">
       <h1>TechMag<span>2000</span></h1>
       <p class="paragraph-header">Le magazine qui explore les technologies du 
         futur
       </p>
     </header>
     <main>
-      <div>
+      <div class="card">
         <h2>Notre magazine</h2>
         <p>
           "I just knew it! Well, I wasn't gonna let you get all the credit and 
@@ -27,9 +26,11 @@
         </p>
       </div>
       <article>
-        <h1>Toujours plus de drône dans le ciel</h1>
-        <p class="caption">Publié le <span class="date">10 février 2025</span> 
-        par <span class="author">James Webb</span></p>
+        <header>
+          <h1>Toujours plus de drône dans le ciel</h1>
+          <p class="caption">Publié le <span class="date">10 février 2025</span> 
+          par <span class="author">James Webb</span></p>
+      </header>
         <p>
           Your friend is quite a mercenary. I wonder if he really cares about 
           anything...or anyone. I care! So...what do you think of her, Han? I'm 
@@ -43,12 +44,16 @@
             Le drône est-t'il le nouveau meilleur ami de l'homme?
           </figcaption>
         </figure>
-        <button><a href="article.html">En lire plus</a></button>
+        <footer>
+          <a class="button" href="article.html">En lire plus</a>
+        </footer>
       </article>
       <article>
+        <header>
         <h1>Internet, c'était mieux avant</h1>
-        <p class="caption">Publié le <span class="date">7 jan vier 2025</span> 
-          par <span class="author">Arthur Poulas</span></p>
+          <p class="caption">Publié le <span class="date">7 jan vier 2025</span> 
+            par <span class="author">Arthur Poulas</span></p>
+        </header>  
         <p>
           Yes. Our scout ships have reached Dantooine. They found the remains 
           of a Rebel base, but they estimate that it has been deserted.
@@ -64,7 +69,7 @@
           For some time. They are now conducting an extensive search of 
           the surrounding systems.
         </p>
-        <button><a href="article.html">En lire plus</a></button>
+        <a class="button" href="article.html">En lire plus</a>
       </article>
     </main>
     <footer>
