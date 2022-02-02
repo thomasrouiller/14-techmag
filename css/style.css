@@ -9,5 +9,9 @@ html {
 
 body {
   max-width: 320px;
-  margin: auto;
+  font-family: 'Open Sans';
+}
+
+img {
+  max-width: 100%;
 }
