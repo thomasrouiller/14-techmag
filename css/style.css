@@ -128,8 +128,15 @@ figcaption {
 }
 
 .site-footer {
-  border: 10px solid var(--main-color);
-  box-shadow: 0px 0px 10px 0px var(--main-color);
+  text-align: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 0px 0px 4px 0px var(--main-color);
+  padding-top: 7px;
+  padding-bottom: 7px;
   color: white;
   box-sizing: border-box;
+}
+
+.site-footer p { 
+  font-size: 10px;
 }
