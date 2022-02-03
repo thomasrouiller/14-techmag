@@ -5,6 +5,7 @@
 :root {
   --main-color: #2afca6;
   --secondary-color: #0e6647;
+  --caption-color: #b5b5b5;
 }
 
 html {
@@ -76,12 +77,29 @@ img {
   font-size: 16px;
 }
 
-.caption {
-  color: black;
-}
 
 article {
   background-color: white;
+  padding: 15px 30px;
+}
+
+article, h1 {
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+.caption {
+  font-size: 12px;
+  margin-top: 20px;
+  color: var(--caption-color);
+}
+
+.date {
+  color: black;
+}
+
+.author {
+  color: var(--main-color);
 }
 
 figure {
