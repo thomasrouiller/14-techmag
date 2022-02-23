@@ -18,7 +18,8 @@ body {
   max-width: 375px;
   font-family: 'Open Sans';
   background-color: black;
-  margin: 20px 25px 0px 25px;
+  max-width: 325px;
+  margin: auto;
 }
 
 .site-header {
