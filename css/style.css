@@ -48,10 +48,6 @@ body {
   padding: 4px 0px 0px 20px;
 }
 
-.paragraphe-header {
-  font-size: 20px;
-}
-
 .magazine-logo { 
   color: var(--main-color);
 }
@@ -66,7 +62,6 @@ img {
   padding: 20px 25px 20px 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* attention marge */
 }
 
 .card, 
