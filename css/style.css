@@ -69,12 +69,14 @@ img {
   /* attention marge */
 }
 
-.card, h2 {
+.card, 
+h2 {
   font-family: 'Montserrat';
   font-size: 16px;
 }
 
-.card, p {
+.card, 
+p {
   font-family: 'Open Sans';
   font-weight: 400;
   font-size: 16px;
@@ -88,7 +90,8 @@ article {
   margin-bottom: 20px;
 }
 
-article, h1 {
+article, 
+h1 {
   font-family: 'Montserrat';
   font-size: 16px;
 }
